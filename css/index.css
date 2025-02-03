@@ -197,10 +197,10 @@ header p{
 /* ------------------Шаги ремонта */
 .repair{
     margin-top: 2rem;
-    background-image: url(img/i.webp);
+    background-image: url(/img/i.webp);
     background-size: cover;
     background-attachment: fixed;
-    background-color: #0000007c;
+    background-color: #f2f2f2;
     display: grid;
     justify-items: center;
     border-bottom: 1px #000 solid;
