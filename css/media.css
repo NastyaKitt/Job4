@@ -1,0 +1,296 @@
+@media (max-width:1680px) {
+    html {
+        font-size: 14px;
+    }
+    .firstWin {
+        & img {
+            width: 75rem;
+            height: 50rem;
+            bottom: -2.5rem;
+        }
+    }
+}
+@media (max-width:1536px) {
+    .whatHappened {
+        & .problems {
+            & .problem {
+                margin-right: 0rem;
+            }
+        }
+    }
+    .repair {
+        & .repairStep {
+            & svg {
+                width: 5rem;
+            }
+        }
+    }
+    .masters {
+        & .masters1 {
+            & img {
+                width: 25rem;
+                height: 25rem;
+            }
+        }
+    }
+}
+@media (max-width:1440px) {
+    header, .firstWin, .Characteristics, .whatHappened, .repair, .reviews, .form, .masters, footer {
+        width: calc(100% - 6rem);
+        padding: 0 3rem;
+    }
+    html {
+        font-size: 12px;
+    }
+
+    .firstWin {
+        & img {
+            width: 75rem;
+            height: 50rem;
+            bottom: 12.5rem;
+        }
+    }
+@media (max-width: 1536px) {
+    .repair {
+        & .repairStep {
+            & svg {
+                width: 11rem;
+            }
+        }
+    }
+}
+}
+@media (max-width:1366px) {
+    html {
+        font-size: 12px;
+    }
+    .firstWin {
+        & img {
+            width: 75rem;
+            height: 50rem;
+            bottom: 1rem;
+        }
+    }
+    header, .firstWin, .Characteristics, .whatHappened, .repair, .reviews, .form, .masters, footer {
+        width: calc(100% - 10rem);
+        padding: 0 5rem;
+    }
+    
+}
+@media (max-width:1280px) {
+    .firstWin {
+        & img {
+            width: 75rem;
+            height: 50rem;
+            bottom: 4rem;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .firstWin {
+        & img {
+            width: 58rem;
+            height: 37rem;
+            bottom: 2rem;
+        }
+    }
+    .Characteristics {
+        & h2 {
+            width: 17rem;
+        }
+    }
+    .repair {
+        & .repairStep {
+            & .non {
+                width: 5rem;
+                display: none;
+            }
+        }
+    }
+    .masters {
+        & .masters1 {
+            & img {
+                width: 20rem;
+                height: 20rem;
+            }
+        }
+    }
+}
+@media (max-width: 876px) {
+    .telephone svg {
+        width:  3rem;
+        height: 3rem ;
+    }
+    .firstWin {
+        & img {
+            width: 50rem;
+            height: 30rem;
+            left: -3rem;
+            bottom: 55rem;
+        }
+    }
+    .Characteristics {
+        & h2 {
+            width: 12rem;
+            height: 6rem;
+        }
+    }
+    .whatHappened {
+        & .problems {
+            justify-content: space-evenly;
+        }
+    }
+    .repair {
+        & .repairStep {
+            justify-content: space-evenly;
+        }
+    }
+    .repair {
+        & h1 {
+            margin: 2rem 0 5rem 0;
+        }
+    }
+    .masters {
+        & .masters1 {
+            & img {
+                width: 15rem;
+                height: 15rem;
+            }
+        }
+    }
+    politics {
+        & p {
+            text-align: left;
+            margin-left: 1.25rem;
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+    }
+
+}
+@media (max-width: 876px) {
+    .telephone svg {
+        width:  3rem;
+        height: 3rem ;
+    }
+    .firstWin {
+        & img {
+            width: 50rem;
+            height: 30rem;
+            left: -13rem;
+            bottom: 45rem;
+        }
+    }
+    .Characteristics {
+        & h2 {
+            width: 12rem;
+            height: 6rem;
+        }
+    }
+    .whatHappened {
+        & .problems {
+            justify-content: space-evenly;
+        }
+    }
+    .repair {
+        & .repairStep {
+            justify-content: space-evenly;
+        }
+    }
+    .repair {
+        & h1 {
+            margin: 2rem 0 5rem 0;
+        }
+    }
+    .masters {
+        & .masters1 {
+            & img {
+                width: 15rem;
+                height: 15rem;
+            }
+        }
+    }
+    .formap {
+        width: calc(100% - 5rem);
+        padding: 0 2.5rem;
+        
+    }
+}
+@media (max-width: 412px) {
+    html {
+        font-size: 10px;
+    }
+    .firstWin {
+        & img {
+            display: none;
+        }
+    }
+    header {
+        flex-direction: column;
+        & p {
+            margin: 1rem 0;
+        }
+    }
+    .firstWin {
+        justify-items: center;
+        text-align: center;
+    }
+    .whatHappened {
+        & h1 {
+            margin-top: 2rem;
+        }
+    }
+    .Characteristics {
+        display: none;
+    }
+    .form {
+        & form {
+            width: auto;
+        }
+    }
+    .masters {
+        & .masters1 {
+            & img {
+                width: 10rem;
+                height: 11rem;
+            }
+        }
+    }
+    .form{
+        text-align: center;
+    }
+    header, .firstWin, .Characteristics, .whatHappened, .repair, .reviews, .form, .masters, footer {
+        width: calc(100% - 6rem);
+        padding: 0 3rem;
+    }
+    .whatHappened{
+        text-align: center;
+    }
+    footer {
+        & iframe {
+            height: 30rem;
+        }
+    }
+    .popup {
+        & form {
+            width: 90%;
+        }
+    }
+    politics {
+        & p {
+            text-align: left;
+            margin-left: 1.25rem;
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+    }
+    .formap {
+        width: calc(100% - 5rem);
+        padding: 0 2.5rem;
+
+        & h2 {
+            font-size: 2rem;
+        }
+    }
+}
